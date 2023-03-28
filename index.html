@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physionic</title>
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+<body>
+    
+    <header class="header p-5">
+        <div class="container">
+            <div class="headerWrapper flex items-center justify-between">
+                <div class="headerLogo">
+                    <h2 class="text-secondary font-bold text-[2rem]">Physionic</h2>
+                </div>
+                <div class="headerNav hidden md:block">
+                    <ul class="flex gap-5">
+                        <li class="hover:text-primary transition-[0.6s]"><a href="#section1">Home</a></li>
+                        <li class="hover:text-primary transition-[0.6s]"><a href="#section2">Product</a></li>
+                        <li class="hover:text-primary transition-[0.6s]"><a href="#section5">Pricing</a></li>
+                        <li class="hover:text-primary transition-[0.6s]"><a href="#section6">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="getAQoute hidden md:block">
+                    <a class="bg-primary p-3 rounded-md font-semibold text-white hover:bg-secondary transition-[0.6s]" href="#">Get A Quote Now</a>
+                </div>
+
+                <div class="flex gap-6 md:hidden">
+                    <div class="searchAndCart flex gap-6">
+                        <i class="fa-solid fa-magnifying-glass text-darkGray text-2xl hover:text-3xl hover:text-secondary transition-[0.6s]"></i>
+                        <i class="fa-solid fa-cart-shopping text-darkGray text-2xl hover:text-3xl hover:text-secondary transition-[0.6s]"></i>
+                        
+                    </div>
+                    <div class="toggleMenu cursor-pointer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="headerMobileNav bg-lightGray transition-all duration-500">
+                <ul class="text-center text-[1.5rem] text-darkGray font-semibold py-5">
+                    <li><a class="block p-3" href="#section1">Home</a></li>
+                    <li><a class="block p-3" href="#section2">Product</a></li>
+                    <li><a class="block p-3" href="#section5">Pricing</a></li>
+                    <li><a class="block p-3" href="#section6">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section id="section1" class="banner  bg-blend-multiply bg-cover bg-no-repeat object-cover  bg-darkGray bg-[url('./img/hero-cover.jpg')] p-10">
+        <div class="container">
+            <div class="bannerWrapper lg:flex justify-between">
+                <div class="text-center lg:text-left lg:mt-[8rem]">
+                    <h1 class="text-huge text-white font-semibold mb-6 lg:font-bold">Meet the Best <br> Hospital</h1>
+                <p class="text-white mb-6 lg:w-[70%]">We know how large objects will act, but things on a small scale.</p>
+                <div class="lg:flex gap-1">
+                    <div class="mb-10">
+                        <a class="bg-primary py-3 px-5 rounded-full text-white font-semibold hover:bg-secondary transition-[0.6s]" href="#">Get Quote Now</a> 
+                    </div>
+                    
+                    <div>
+                        <a class="bg-transparent border border-white py-3 px-5 rounded-full text-white font-medium hover:bg-white hover:text-secondary transition-[0.6s]" href="#">Learn More</a>
+                    </div>
+                
+                </div>
+                
+                </div>
+
+                <div class="bannerForm text-left bg-white p-10 rounded-lg my-10">
+                    <h3 class="text-center font-semibold text-secondary mb-10">Book Appointment</h3>
+                    <form action="">
+        
+                        <div class="inputGroup mb-3 font-semibold">
+                            <label for="">Name*</label> <br>
+                            <input class="p-3 w-full bg-lightGray rounded-lg border border-gray-300" type="text" placeholder="Fullname*">
+                        </div>
+                        <div class="inputGroup mb-3 font-semibold">
+                            <label for="">Email Address*</label> <br>
+                            <input class="p-3 w-full bg-lightGray rounded-lg border border-gray-300" type="text" placeholder="example@gmail.com">
+                        </div>
+                        <div class="inputGroup mb-3 font-semibold relative">
+                            <label for="">Department</label> <br>
+                            <input class="p-3 w-full bg-lightGray rounded-lg border border-gray-300" type="text" placeholder="Please Select">
+                            <i class="fa-solid fa-chevron-down absolute right-[1rem] bottom-[1.2rem] font-medium cursor-pointer"></i>
+                        </div>
+                        <div class="inputGroup mb-3 font-semibold relative">
+                            <label for="">Time*</label> <br>
+                            <input class="p-3 w-full bg-lightGray rounded-lg border border-gray-300" type="text" placeholder="4:00 Available">
+                            <i class="fa-solid fa-chevron-down absolute right-[1.2rem] bottom-[5rem] font-medium cursor-pointer"></i>
+                            
+                    </form>
+                    <div class="text-center mt-10">
+                        <a class="bg-primary py-3 px-12 text-white rounded-md text-sm hover:bg-secondary transition-[0.6s]" href="#">Book Appointment</a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+    
+            
+            </div>
+            
+            
+
+    </section>
+
+    <section id="section2" class="leadingMed p-10 text-center">
+        <div class="container">
+            <h1 class="text-huge font-bold text-secondary mb-3">Leading Medicine</h1>
+            <p class="text-darkGray w-[70%] mx-auto mb-10">
+                Problems trying to resolve 
+                the conflict between the 
+                two major realms of Classical 
+                physics: Newtonian mechanics 
+            </p>
+        </div>
+        
+            <div class="healthCard p-5 lg:grid grid-cols-3 gap-5">
+                <div class="cards bg-lightBlue pt-5 mb-5 rounded-lg">
+                    <div class="flex mx-12 p-5 items-center gap-3">
+                        <img class="lg:hidden" src="./img/icn-circle circle-md primary-color.png" alt="">
+                        <img src="./img/icn-circle circle-md.png" alt="">
+                        <h3 class="text-white font-semibold">Emergency Case</h3>
+                    </div>
+                   
+                    <div class="p-10 text-left border border-lightBlue top-[8.5rem] bg-white rounded-lg">
+                        <p class="text-darkGray font-medium mb-3">-  The best products start 
+                            with Figma <br>
+                            - Design with real data <br>
+                            - Lightning fast prototyping <br>
+                            - Fastest way to organize <br>
+                            - Work at the speed of thought.
+                        </p>
+                        <a class="text-primary font-semibold hover:text-secondary transition-[0.6s]" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="cards bg-lightBlue pt-5 mb-5 rounded-lg">
+                    <div class="flex mx-12 p-5 items-center gap-3">
+                        <img class="lg:hidden" src="./img/icn-circle circle-md primary-color.png" alt="">
+                        <img src="./img/icn-circle circle-md.png" alt="">
+                        <h3 class="text-white font-semibold">Cancer Case</h3>
+                    </div>
+                   
+                    <div class="p-10 text-left border border-lightBlue top-[8.5rem] bg-white rounded-lg">
+                        <p class="text-darkGray font-medium mb-3">-  The best products start 
+                            with Figma <br>
+                            - Design with real data <br>
+                            - Lightning fast prototyping <br>
+                            - Fastest way to organize <br>
+                            - Work at the speed of thought.
+                        </p>
+                        <a class="text-primary font-semibold hover:text-secondary transition-[0.6s]" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="cards bg-lightBlue pt-5 mb-5 rounded-lg">
+                    <div class="flex mx-12 p-5 items-center gap-3">
+                        <img class="lg:hidden" src="./img/icn-circle circle-md primary-color.png" alt="">
+                        <img src="./img/icn-circle circle-md.png" alt="">
+                        <h3 class="text-white font-semibold">Health Queries</h3>
+                    </div>
+                   
+                    <div class="p-10 text-left border border-lightBlue top-[8.5rem] bg-white rounded-lg">
+                        <p class="text-darkGray font-medium mb-3">-  The best products start 
+                            with Figma <br>
+                            - Design with real data <br>
+                            - Lightning fast prototyping <br>
+                            - Fastest way to organize <br>
+                            - Work at the speed of thought.
+                        </p>
+                        <a class="text-primary font-semibold hover:text-secondary transition-[0.6s]" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+    <section class="ratings p-10 bg-lightGray">
+        <div class="container">
+
+            <h1 class="text-huge font-bold text-secondary mb-3 text-center hidden lg:block">Leading Medicine</h1>
+            <h1 class="text-huge font-bold text-secondary mb-3 text-center lg:hidden md:block">What <br> Clients Say</h1>
+            <p class="text-darkGray w-[70%] mx-auto mb-10 text-center">
+                Problems trying to resolve 
+                the conflict between the 
+                two major realms of Classical 
+                physics: Newtonian mechanics 
+            </p>
+        </div>
+        <div class="lg:grid grid-cols-3 gap-5">
+            <div class="ratingsCard p-10 bg-white rounded-lg mb-5">
+                <div class="rateStar text-yellow-300 mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-darkGray font-medium mb-2
+                ">
+                    Slate helps you see how many 
+                    more days you need to work to 
+                    reach your financial goal.
+                </p>
+                <img src="./img/dr.A.png" alt="">
+            </div>
+            <div class="ratingsCard p-10 bg-white rounded-lg mb-5">
+                <div class="rateStar text-yellow-300 mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-darkGray font-medium mb-2
+                ">
+                    Slate helps you see how many 
+                    more days you need to work to 
+                    reach your financial goal.
+                </p>
+                <img src="./img/dr.A.png" alt="">
+            </div>
+            <div class="ratingsCard p-10 bg-white rounded-lg mb-5">
+                <div class="rateStar text-yellow-300 mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-darkGray font-medium mb-2
+                ">
+                    Slate helps you see how many 
+                    more days you need to work to 
+                    reach your financial goal.
+                </p>
+                <img src="./img/dr.A.png" alt="">
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="FAQs p-10 bg-lightGray">
+        <div class="container">
+
+            <h1 class="text-huge font-bold text-secondary mb-3 text-center">FAQ</h1>
+            <p class="text-darkGray w-[70%] mx-auto mb-10 text-center">
+                Problems trying to resolve 
+                the conflict between the 
+                two major realms of Classical 
+                physics: Newtonian mechanics 
+            </p>
+
+            <div class="FAQcards p-10 lg:grid grid-cols-3 gap-5">
+                <div class="cards p-10 mb-5 flex bg-white rounded-lg">
+                    <i class="fa-solid fa-chevron-right mr-5 text-primary text-[1.5rem] hover:text-[1.8rem] transition-[0.6s]"></i>
+                    <div>
+                        <h3 class="text-secondary font-bold">the quick fox jumps over the 
+                            lazy dog</h3>
+                            <p class="text-darkGray">Things on a very small scale 
+                                behave like nothing </p>
+                    </div>
+                        
+                </div>
+                <div class="cards p-10 mb-5 flex bg-white rounded-lg">
+                    <i class="fa-solid fa-chevron-right mr-5 text-primary text-[1.5rem] hover:text-[1.8rem] transition-[0.6s]"></i>
+                    <div>
+                        <h3 class="text-secondary font-bold">the quick fox jumps over the 
+                            lazy dog</h3>
+                            <p class="text-darkGray">Things on a very small scale 
+                                behave like nothing </p>
+                    </div>
+                        
+                </div>
+                <div class="cards p-10 mb-5 flex bg-white rounded-lg">
+                    <i class="fa-solid fa-chevron-right mr-5 text-primary text-[1.5rem] hover:text-[1.8rem] transition-[0.6s]"></i>
+                    <div>
+                        <h3 class="text-secondary font-bold">the quick fox jumps over the 
+                            lazy dog</h3>
+                            <p class="text-darkGray">Things on a very small scale 
+                                behave like nothing </p>
+                    </div>
+                        
+                </div>
+                <div class="cards p-10 mb-5 flex bg-white rounded-lg">
+                    <i class="fa-solid fa-chevron-right mr-5 text-primary text-[1.5rem] hover:text-[1.8rem] transition-[0.6s]"></i>
+                    <div>
+                        <h3 class="text-secondary font-bold">the quick fox jumps over the 
+                            lazy dog</h3>
+                            <p class="text-darkGray">Things on a very small scale 
+                                behave like nothing </p>
+                    </div>
+                        
+                </div>
+                <div class="cards p-10 mb-5 flex bg-white rounded-lg">
+                    <i class="fa-solid fa-chevron-right mr-5 text-primary text-[1.5rem] hover:text-[1.8rem] transition-[0.6s]"></i>
+                    <div>
+                        <h3 class="text-secondary font-bold">the quick fox jumps over the 
+                            lazy dog</h3>
+                            <p class="text-darkGray">Things on a very small scale 
+                                behave like nothing </p>
+                    </div>
+                        
+                </div>
+                <div class="cards p-10 mb-5 flex bg-white rounded-lg">
+                    <i class="fa-solid fa-chevron-right mr-5 text-primary text-[1.5rem] hover:text-[1.8rem] transition-[0.6s]"></i>
+                    <div>
+                        <h3 class="text-secondary font-bold">the quick fox jumps over the 
+                            lazy dog</h3>
+                            <p class="text-darkGray">Things on a very small scale 
+                                behave like nothing </p>
+                    </div>
+                        
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="section5" class="pricing p-10 bg-lightGray">
+        <div class="container">
+            <h1 class="text-huge font-bold text-secondary mb-3 text-center">Pricing</h1>
+            <p class="text-darkGray w-[70%] mx-auto mb-10 text-center">
+                Problems trying to resolve 
+                the conflict between the 
+                two major realms of Classical 
+                physics: Newtonian mechanics 
+            </p>
+
+            <div class="cards lg:grid grid-cols-3">
+                <div class="freecard text-center border border-primary rounded-lg p-10 mt-8 mb-5 lg:w-[80%] ml-auto">
+                    <h3 class="font-bold text-2xl text-secondary mb-10">FREE</h3>
+                    <p class="text-darkGray font-medium">Organize across all <br> apps by hand</p>
+                    <div class="flex gap-2 ml-[4.5rem] my-10">
+                        <h1 class="text-huge font-bold text-primary">0</h1>
+                        <div class="mt-3">
+                            <h3 class="font-bold text-primary text-left">$</h3>
+                            <p class="text-primary">Per Month</p>
+                        </div>
+                        
+                    </div>
+                    <ul class="flex items-center gap-2 mb-3">
+                        <li><img src="/img/list-style-main.png" alt=""></li>
+                        <h3 class="text-secondary font-semibold">Unlimited product updates</h3>
+                    </ul>
+                    <ul class="flex items-center gap-2 mb-3">
+                        <li><img src="/img/list-style-main.png" alt=""></li>
+                        <h3 class="text-secondary font-semibold">Unlimited product updates</h3>
+                    </ul>
+                    <ul class="flex items-center gap-2 mb-3">
+                        <li><img src="/img/list-style-main.png" alt=""></li>
+                        <h3 class="text-secondary font-semibold">Unlimited product updates</h3>
+                    </ul>
+                    <ul class="flex items-center gap-2 mb-3">
+                        <li><img src="/img/list-style-gray.png" alt=""></li>
+                        <h3 class="text-secondary font-semibold">1GB Cloud Storage</h3>
+                    </ul>
+                    <ul class="flex items-center gap-2 mb-10 text-left">
+                        <li><img src="/img/list-style-gray.png" alt=""></li>
+                        <h3 class="text-secondary font-semibold">Email and community 
+                            support
+                            </h3>
+                    </ul>
+
+                    <a class="bg-primary text-white py-3 px-12 rounded-lg hover:bg-secondary transition-[0.6s]" href="#">Try for free</a>
+                    
+                </div>
+                <div class="freecard text-center border bg-secondary rounded-lg p-10 lg:px-7 mb-5">
+                    <h3 class="font-bold text-2xl text-white mb-10">STANDARD</h3>
+                    <p class="text-white font-medium">Organize across all <br> apps by hand</p>
+                    <div class="flex gap-2 ml-[4.5rem] my-10">
+                        <h1 class="text-huge font-bold text-primary">9.99</h1>
+                        <div class="mt-3">
+                            <h3 class="font-bold text-primary text-left">$</h3>
+                            <p class="text-primary">Per Month</p>
+                        </div>
+                        
+                    </div>
+                    <ul class="flex items-center gap-2 mb-3">
+                        <li><img src="/img/list-style-main.png" alt=""></li>
+                        <h3 class="text-white font-semibold">Unlimited product updates</h3>
+                    </ul>
+                    <ul class="flex items-center gap-2 mb-3">
+                        <li><img src="/img/list-style-main.png" alt=""></li>
+                        <h3 class="text-white font-semibold">Unlimited product updates</h3>
+                    </ul>
+                    <ul class="flex items-center gap-2 mb-3">
+                        <li><img src="/img/list-style-main.png" alt=""></li>
+                        <h3 class="text-white font-semibold">Unlimited product updates</h3>
+                    </ul>
+                    <ul class="flex items-center gap-2 mb-3">
+                        <li><img src="/img/list-style-gray.png" alt=""></li>
+                        <h3 class="text-white font-semibold">1GB Cloud Storage</h3>
+                    </ul>
+                    <ul class="flex items-center gap-2 mb-10 text-left">
+                        <li><img src="/img/list-style-gray.png" alt=""></li>
+                        <h3 class="text-white font-semibold">Email and community 
+                            support
+                            </h3>
+                    </ul>
+
+                    <a class="bg-primary text-white py-3 px-12 rounded-lg hover:bg-white hover:text-secondary transition-[0.6s]" href="#">Try for free</a>
+                    
+                </div>
+                <div class="freecard text-center border border-primary rounded-lg p-10 lg:w-[80%] mt-8 mb-5">
+                    <h3 class="font-bold text-2xl text-secondary mb-10">PREMIUM</h3>
+                    <p class="text-darkGray font-medium">Organize across all <br> apps by hand</p>
+                    <div class="flex gap-2 ml-[4.3rem] lg:ml-[1rem] my-10">
+                        <h1 class="text-huge font-bold text-primary">19.99</h1>
+                        <div class="mt-3">
+                            <h3 class="font-bold text-primary text-left">$</h3>
+                            <p class="text-primary">Per Month</p>
+                        </div>
+                        
+                    </div>
+                    <ul class="flex items-center gap-2 mb-3">
+                        <li><img src="/img/list-style-main.png" alt=""></li>
+                        <h3 class="text-secondary font-semibold">Unlimited product updates</h3>
+                    </ul>
+                    <ul class="flex items-center gap-2 mb-3">
+                        <li><img src="/img/list-style-main.png" alt=""></li>
+                        <h3 class="text-secondary font-semibold">Unlimited product updates</h3>
+                    </ul>
+                    <ul class="flex items-center gap-2 mb-3">
+                        <li><img src="/img/list-style-main.png" alt=""></li>
+                        <h3 class="text-secondary font-semibold">Unlimited product updates</h3>
+                    </ul>
+                    <ul class="flex items-center gap-2 mb-3">
+                        <li><img src="/img/list-style-gray.png" alt=""></li>
+                        <h3 class="text-secondary font-semibold">1GB Cloud Storage</h3>
+                    </ul>
+                    <ul class="flex items-center gap-2 mb-10 text-left">
+                        <li><img src="/img/list-style-gray.png" alt=""></li>
+                        <h3 class="text-secondary font-semibold">Email and community 
+                            support
+                            </h3>
+                    </ul>
+
+                    <a class="bg-primary text-white py-3 px-12 rounded-lg hover:bg-secondary transition-[0.6s]" href="#">Try for free</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section6" class="GetinTouch p-10 bg-secondary">
+        <div class="container lg:hidden">
+            <h2 class="text-white font-semibold text-center mb-5">Subscribe For Latest <br>
+                Newsletter</h2>
+                <label class="relative">
+                    <input class="w-[100%] p-4 border border-white rounded-lg" type="text" placeholder="Your Email">
+                    <button class="absolute right-0 p-4 bg-primary text-white tracking-[2px] border border-white rounded-tr-lg rounded-br-lg hover:bg-secondary transition-[0.6s]">Subscribe</button>
+                </label>
+                
+        </div>
+        <div class="container hidden lg:flex">
+            <div class="lg:grid grid-cols-3 items-center">
+                <div>
+                    <h2 class="text-white font-bold text-[2rem]">Get In Touch</h2>
+                        <p class="text-white"><small>The gradual accumulation of information about atomic and <br>
+                            small-scale behaviour during the first quarter of the 20th</small>  </p>
+                </div>
+                <div></div>
+                <label class="relative">
+                    <input class=" w-full p-4 border border-white rounded-lg" type="text" placeholder="Your Email">
+                    <button class="absolute right-0 top-0 bottom-0 py-4 px-2 bg-primary text-white tracking-[2px] border border-white rounded-tr-lg rounded-br-lg hover:bg-secondary transition-[0.6s]">Subscribe</button>
+                </label>
+            </div>
+                
+        </div>
+    </section>
+
+    <footer class="footer p-10 w-[90%] ml-auto">
+        <div class="container">
+            <div class=" lg:grid grid-cols-4">
+                
+            <div class="footerItems">
+                <div>
+                    <h2 class="font-bold text-2xl text-secondary">Get In Touch</h2>
+                    <p class="my-5 font-medium text-darkGray">
+                        the quick fox jumps over the <br> 
+                        lazy dog
+                    </p>
+                    <ul class="flex gap-3 text-[1.5rem] text-primary mb-5">
+                        <li><a href="#"><i class="fa-brands fa-facebook hover:text-[2rem] hover:text-secondary transition-[0.6s]"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram hover:text-[2rem] hover:text-secondary transition-[0.6s]"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter hover:text-[2rem] hover:text-secondary transition-[0.6s]"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerItems">
+                
+                <div class="font-medium text-darkGray mb-5  ">
+                    <h2 class="font-bold text-2xl mb-5 text-secondary">Company Info</h2>
+                        <p class="mb-1">About Us</p>
+                        <p class="mb-1">Carrier</p>
+                        <p class="mb-1">We are Hiring</p>
+                        <p class="mb-1">Blog</p>
+                </div>
+            </div>
+            <div class="footerItems">
+                
+                <div class="font-medium text-darkGray mb-5  ">
+                    <h2 class="font-bold text-2xl mb-5 text-secondary">Features</h2>
+                        <p class="mb-1">Business Marketing</p>
+                        <p class="mb-1">User Analytic</p>
+                        <p class="mb-1">Live Chat</p>
+                        <p class="mb-1">Unlimited Support</p>
+                </div>
+            </div>
+            <div class="footerItems">
+                
+                <div class="font-medium text-darkGray mb-5  ">
+                    <h2 class="font-bold text-2xl mb-5 text-secondary">Resources</h2>
+                        <p class="mb-1">IOS & Android</p>
+                        <p class="mb-1">Watch a Demo</p>
+                        <p class="mb-1">Customers</p>
+                        <p class="mb-1">API </p>
+                </div>
+            </div>
+            
+            </div>
+
+            
+
+        </div>
+    </footer>
+
+    <section class="bg-lightGray p-10 text-center">
+        <p class="text-darkGray font-medium lg:hidden">Made With Love By <br> 
+            Figmaland All Right Reserved </p>
+        <p class="text-darkGray font-medium hidden lg:block">Made With Love By
+                Figmaland All Right Reserved </p>
+    </section>
+        
+    <script>
+        const toggleMenu = document.querySelector('.toggleMenu');
+        const headerMobileNav = document.querySelector('.headerMobileNav');
+
+        toggleMenu.addEventListener('click', ()=>{
+            headerMobileNav.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
